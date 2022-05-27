@@ -1,0 +1,8 @@
+project: rnshah9/wasi-sdk
+target: wasi-sdk
+image: ghcr.io/rnshah9/playground:wasi-sdk
+tests: null
+
+cmds:
+  - cmd: /repo/tests/general/stat @@
+ #    filepath: /test.c
